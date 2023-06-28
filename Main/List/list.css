@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #eaf2f8; /* Warna biru muda */
+}
+
+header {
+  background-color: #007bff; /* Warna biru tua */
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #fff; /* Warna teks putih */
+}
+
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* Warna latar belakang putih */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.download-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px; /* Menambahkan margin bawah sebesar 10px */
+}
+
+
+.item-info {
+  flex: 1;
+}
+
+.item-info h2,
+.item-info p {
+  margin: 0;
+  color: #333; /* Warna teks abu-abu gelap */
+}
+
+.item-download {
+  display: flex;
+  align-items: center;
+}
+
+.item-download a {
+  padding: 8px 16px;
+  background-color: #007bff; /* Warna biru tua */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  margin-left: 3px; /* Menambahkan margin kiri sebesar 3px */
+}
+
+.item-size {
+  margin-left: 5px; /* Menambahkan margin kiri sebesar 3px pada file size */
+}
+
+.item-download a:hover {
+  background-color: #0056b3; /* Warna biru tua lebih gelap saat dihover */
+}
+
+

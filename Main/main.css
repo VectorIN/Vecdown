@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #eaf2f8; /* Warna biru muda */
+}
+
+header {
+    background-color: #007bff; /* Warna biru tua */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #fff; /* Warna teks putih */
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Warna latar belakang putih */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.download-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-box {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px; /* Jarak antara kotak download */
+}
+
+.download-box h2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.download-button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none; /* Menghilangkan garis di bawah tombol */
+}
+/* Kode CSS sebelumnya */
+
+.download-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+footer {
+    background-color: #000; /* Warna hitam */
+    color: #fff; /* Warna teks putih */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .footer-content p {
+    margin: 0;
+  }
+  
+  .footer-content a {
+    color: #007bff; /* Warna biru untuk tautan */
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  
